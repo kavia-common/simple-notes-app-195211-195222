@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import Header from './components/Header';
-import NotesList from './components/NotesList';
-import NoteEditor from './components/NoteEditor';
-import EmptyState from './components/EmptyState';
+import Header from './components/Header.js';
+import NotesList from './components/NotesList.js';
+import NoteEditor from './components/NoteEditor.js';
+import EmptyState from './components/EmptyState.js';
 import styles from './App.module.css';
 
 const API_BASE_URL = 'http://localhost:3001';
